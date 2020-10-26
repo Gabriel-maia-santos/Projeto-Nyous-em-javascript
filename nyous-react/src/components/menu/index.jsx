@@ -12,8 +12,9 @@ const Menu = () => {
                     <Nav.Link href="/">Home</Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="/login">Login</Nav.Link>
-                    <Nav.Link href="/cadastrar">Cadastrar</Nav.Link>
+                    <Nav.Link href="/admin/dashboard">Dashboard</Nav.Link>
+                    <Nav.Link href="/pages/eventos">Eventos</Nav.Link>
+                    <Nav.Link href="/admin/categorias">Categorias</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
